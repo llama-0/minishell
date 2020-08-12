@@ -1,6 +1,8 @@
 # minishell
 42 Project in a Unix learning curve
 
+(for MacOS)
+
 ## How to build
 
 ```
@@ -25,3 +27,20 @@ If you wish to run the program under valgrind, you have two options:
 ```
 exit
 ```
+
+This is a simplest realization of a shell program, key features of which are:
+- buildins
+  - echo
+  - cd
+  - setenv
+  - unsetenv
+  - env
+  - exit
+- expansions
+  - $
+  - ~
+- error handling
+  
+Bonus feature: management of `;`
+
+To make parsing of commands easier I've build a **dictionary** data structure based on linked list.
