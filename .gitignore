@@ -1,3 +1,7 @@
+# Tmp files
+*.swp
+valgrind-out.txt
+
 # Prerequisites
 *.d
 
@@ -35,6 +39,7 @@
 *.i*86
 *.x86_64
 *.hex
+minishell
 
 # Debug files
 *.dSYM/
@@ -50,3 +55,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# IDE files
+.vscode/
